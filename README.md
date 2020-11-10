@@ -13,7 +13,7 @@ A simple 15 instruction set programming language. It runs on a 1024 cell memory 
 | div cell1 cell2           | divides the value at cell1 by cell2                                                                                                              |
 | mod cell1 cell2           | sets cell1 to the mod of the value at cell1 by cell2                                                                                             |
 | cpr cell1 cell2 cell3     | if cell2 = cell3, sets cell1 to 0 if cell2 > cell3, sets cell1 to 1 if cell2 < cell3, sets cell1 to -1                                           |
-| lbl label                 | creates label at current line labels are created before anything else happens,   so you can refer to labels that the program has not reached yet |
+| lbl label                 | creates label at current line <br> labels are created before anything else happens,   so you can refer to labels that the program has not reached yet |
 | gto label                 | goes to a label                                                                                                                                  |
 | cgt cell label            | if the value at cell is not 0, goes to label                                                                                                     |
 | gtc cell                  | gets a character from cin and sets the value at cell to the integer value                                                                        |
